@@ -1208,7 +1208,7 @@ body{
 font-family:"Microsoft Yahei",Arial,"MS Trebuchet",sans-serif
 }
 .container{
-position:relative;width:1015px;margin:0 auto;
+position:relative;width:1025px;margin:0 auto;
 }
 .mT10{
 margin-top:10px
@@ -1228,11 +1228,11 @@ color:#000
 .cols .col{
 float:left
 }
-header .container{
+#header .container{
 text-align:center
 }
-header .logo{
-display:block;margin:60px auto -38px;width:90px
+#header .logo{
+display:block;margin:60px auto -38px;width:90px;
 }
 #main-container{
 height:526px;background:url(img/mid-bg.jpg) repeat
@@ -1298,7 +1298,7 @@ width:7px;background:0
 background:0
 }
 #main-container .page .jspDrag{
-background: #dedfdf;
+background: #F3F3F3;
 }
 #main-container .page p{
 color:#b5b5b6;line-height:22px
@@ -1363,37 +1363,37 @@ margin-right:0
 #main-container .contact ul li span{
 color:#009ce5;margin-right:10px
 }
-footer{
-padding:20px 0
+#footer{
+padding:20px 0 5px;
 }
-footer .container{
+#footer .container{
 text-align:center
 }
-footer .nav{
+#footer .nav{
 border-bottom:1px solid #ddd;padding-bottom:10px
 }
-footer .nav ul{
+#footer .nav ul{
 display:inline-block;
 }
-.lt-ie8 footer .nav ul{
+.lt-ie8 #footer .nav ul{
 display:inline;
 }
-footer .nav li{
+#footer .nav li{
 float:left;margin-right:25px;color:#9fa0a0
 }
-footer .nav li a{
+#footer .nav li a{
 color:#9fa0a0
 }
-footer .nav li a.current{
+#footer .nav li a.current{
 color:#221815
 }
-footer .nav li a.current span{
+#footer .nav li a.current span{
 visibility:hidden
 }
-footer .nav li span{
+#footer .nav li span{
 margin-left:4px;text-transform:uppercase;font-size: 10px;
 }
-footer .copyright{
+#footer .copyright{
 font-size:11px;color:#bfc0c0
 }
  .bx-controls-direction {
