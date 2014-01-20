@@ -1237,11 +1237,35 @@ display:block;margin:60px auto -38px;width:90px;
 #main-container{
 height:526px;background:url(img/mid-bg.jpg) repeat
 }
+#main-container.fullheight {
+height: auto;
+}
 #main-container .container{
 padding:0 55px
 }
 #main-container .slider{
 width:980px;margin:0 auto;
+}
+#main-container .slider img{
+margin: 0 auto
+}
+#main-container .slider .horizontal{
+padding: 115px 130px 0;margin-bottom: 15px;
+}
+#main-container .slider .horizontal li{
+float: left;margin-right: 30px; margin-bottom: 30px;
+}
+#main-container .slider .horizontal li.last{
+margin-right: 0;
+}
+#main-container .slider .horizontal li .colour{
+display: none;
+}
+#main-container .slider .horizontal li a:hover img{
+display: none;
+}
+#main-container .slider .horizontal li a:hover .colour{
+display: block;
 }
 #main-container .slider .bx-wrapper .bx-viewport{
 -moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;left:0;background:0;border:0
@@ -1282,6 +1306,9 @@ border-bottom:0
 #main-container .case-detail img{
 display:block;margin-bottom:20px
 }
+#main-container .case-detail a{
+color: #9fa0a0;
+}
 #main-container .page{
 padding-top:68px
 }
@@ -1289,7 +1316,7 @@ padding-top:68px
 max-height:450px;overflow:hidden
 }
 #main-container .page .service, #main-container .page .about{
-padding-bottom:10px;
+padding-bottom:30px;
 }
 #main-container .page .jspVerticalBar{
 width:7px;background:0
@@ -1316,13 +1343,13 @@ background-color:#000;padding:28px 40px
 width:865px
 }
 #main-container .service .block{
-margin-top:55px
+margin-top:60px
 }
 #main-container .service .block p{
 color:#009ce5
 }
 #main-container .service img.service{
-margin:40px 0 0 118px;width:310px;height:288px;
+margin:40px 0 0 118px;width:auto
 }
 #main-container .service .service-list{
 position:absolute;top:108px;right:165px
@@ -1334,19 +1361,16 @@ color:#009ce5;font-size:16px;line-height:24px
 color:#b5b5b6;line-height:22px
 }
 #main-container .about{
-width:865px
+width:660px
 }
 #main-container .about h2{
 font-size:16px;line-height:1;color:#009ce5;margin:30px 0 15px
 }
 #main-container .about img.about{
-margin:28px 0 10px;width:100%;height:262px
-}
-#main-container .about img{
-width:100%;height:145px
+margin:28px 0 10px
 }
 #main-container .contact img{
-margin:20px 0 40px;
+margin:20px 0 40px
 }
 #main-container .contact .block{
 background:transparent url(img/line.jpg) top left no-repeat;padding:20px 0 0;width:280px
@@ -1397,7 +1421,7 @@ visibility:hidden
 margin-left:4px;text-transform:uppercase;font-size: 10px;
 }
 #footer .copyright{
-font-size:11px;color:#bfc0c0
+font-size:10px;color:#d0d1d1;
 }
  .bx-controls-direction {
 display: none;
